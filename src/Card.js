@@ -3,10 +3,10 @@ import gender from './icons/female.png';
 function Card(props) {
     return (
         <div className="card" >
-            <img src={props.persone.photo} alt= "Photo"/>
-            <div className="name">{props.persone.name} </div>
-            <div className="name">{props.persone.surename} </div>
-            <div className="age">{props.persone.age} </div>
+            <img src={props.person.photo} alt= "Photo"/>
+            <div className="name">{props.person.name} </div>
+
+            <div className="age">{props.person.age} </div>
 
         </div>
     );

@@ -9,7 +9,7 @@ function Article(props) {
             Object.keys(props.db).map 
             (
                 elem => {
-                    return (<Card persone={props.db[elem]} />);
+                    return (<Card person={props.db[elem]} />);
                 }
             )
             }
